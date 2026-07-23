@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta name="theme-color" content="#172554">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }} · RedShelf">
+  <meta property="og:description" content="{{ config.site_description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block announce %}
+  <div class="rs-topbar" aria-label="Repository information">
+    <div class="rs-topbar__inner">
+      <span>RedShelf Research Repository</span>
+      <span class="rs-topbar__motto">Organise. Discover. Read.</span>
+    </div>
+  </div>
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  <footer class="rs-footer" role="contentinfo">
+    <div class="rs-footer__inner">
+      <div class="rs-footer__brand">
+        <a href="{{ '.' | url }}" class="rs-footer__wordmark" aria-label="RedShelf home">RedShelf</a>
+        <p>Academic Research Library</p>
+        <p class="rs-footer__motto">Organise. Discover. Read.</p>
+      </div>
+      <nav aria-label="RedShelf footer navigation">
+        <h2>RedShelf</h2>
+        <a href="{{ 'about/' | url }}">About</a>
+        <a href="{{ 'recently-added/' | url }}">Recently Added</a>
+        <a href="{{ 'research-papers/' | url }}">Research Papers</a>
+      </nav>
+      <nav aria-label="Resource links">
+        <h2>Resources</h2>
+        <a href="{{ 'guidelines/' | url }}">Guidelines</a>
+        <a href="{{ 'reports/' | url }}">Reports</a>
+        <a href="{{ 'books/' | url }}">Books</a>
+      </nav>
+      <nav aria-label="Project links">
+        <h2>Project</h2>
+        <a href="{{ config.repo_url }}" target="_blank" rel="noopener">GitHub</a>
+        <a href="{{ config.repo_url }}/blob/main/README.md" target="_blank" rel="noopener">Documentation</a>
+        <a href="{{ 'about/#privacy-notice' | url }}">Privacy Notice</a>
+      </nav>
+    </div>
+    <div class="rs-footer__legal">
+      <span>RedShelf &mdash; Organise. Discover. Read.</span>
+      <span>RedShelf is an independent academic library project and is not an official UiTM platform.</span>
+    </div>
+  </footer>
+{% endblock %}

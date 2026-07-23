@@ -1,7 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title id="title">RedShelf</title>
-  <rect width="64" height="64" rx="12" fill="#b4232d"/>
-  <path d="M16 15h24c6.6 0 12 5.4 12 12v22H28c-6.6 0-12-5.4-12-12V15Z" fill="#fff"/>
-  <path d="M28 15h12c6.6 0 12 5.4 12 12v22H28V15Z" fill="#f7dadd"/>
-  <path d="M28 15v34" stroke="#b4232d" stroke-width="4"/>
+  <rect width="64" height="64" rx="5" fill="#172554"/>
+  <path d="M15 14h25c6.6 0 12 5.4 12 12v24H27c-6.6 0-12-5.4-12-12V14Z" fill="#fff"/>
+  <path d="M28 14h12c6.6 0 12 5.4 12 12v24H28V14Z" fill="#f4eedc"/>
+  <path d="M28 14v36" stroke="#7A1F3D" stroke-width="4"/>
+  <path d="M16 50h36" stroke="#C8A951" stroke-width="3"/>
 </svg>

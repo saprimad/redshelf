@@ -32,10 +32,10 @@ tags:
 This fictional methods paper demonstrates how a researcher might document online community selection, observation boundaries, reflexive fieldnotes and ethical decision-making in a netnographic study. It is provided only to show the RedShelf metadata and reading experience.
 
 <div class="rs-actions">
-  <a class="md-button md-button--primary" href="../../assets/pdf/netnography-example.pdf" target="_blank" rel="noopener">:material-eye-outline: View PDF</a>
-  <a class="md-button" href="../../assets/pdf/netnography-example.pdf" download>:material-download: Download PDF</a>
-  <a class="md-button" href="https://doi.org/10.0000/redshelf.net.001" target="_blank" rel="noopener">:material-link-variant: DOI</a>
-  <a class="md-button" href="https://example.org/netnography-example" target="_blank" rel="noopener">:material-open-in-new: External record</a>
+  <a class="md-button md-button--primary" href="../../assets/pdf/netnography-example.pdf" target="_blank" rel="noopener">View PDF</a>
+  <a class="md-button" href="../../assets/pdf/netnography-example.pdf" download>Download PDF</a>
+  <a class="md-button" href="https://doi.org/10.0000/redshelf.net.001" target="_blank" rel="noopener">DOI</a>
+  <a class="md-button" href="https://example.org/netnography-example" target="_blank" rel="noopener">External record</a>
 </div>
 
 <details class="pdf-preview" open>
@@ -54,4 +54,3 @@ This fictional methods paper demonstrates how a researcher might document online
 
 - [Research Methods Example](research-methods-example.md)
 - [Social Judgment Theory Example](social-judgment-theory-example.md)
-

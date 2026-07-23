@@ -32,10 +32,10 @@ tags:
 This fictional guide walks through a transparent mixed-methods workflow, from research questions and sampling to integration and reporting. It demonstrates a practical guide format within RedShelf.
 
 <div class="rs-actions">
-  <a class="md-button md-button--primary" href="../../assets/pdf/research-methods-example.pdf" target="_blank" rel="noopener">:material-eye-outline: View PDF</a>
-  <a class="md-button" href="../../assets/pdf/research-methods-example.pdf" download>:material-download: Download PDF</a>
-  <a class="md-button" href="https://doi.org/10.0000/redshelf.met.005" target="_blank" rel="noopener">:material-link-variant: DOI</a>
-  <a class="md-button" href="https://example.org/research-methods-example" target="_blank" rel="noopener">:material-open-in-new: External record</a>
+  <a class="md-button md-button--primary" href="../../assets/pdf/research-methods-example.pdf" target="_blank" rel="noopener">View PDF</a>
+  <a class="md-button" href="../../assets/pdf/research-methods-example.pdf" download>Download PDF</a>
+  <a class="md-button" href="https://doi.org/10.0000/redshelf.met.005" target="_blank" rel="noopener">DOI</a>
+  <a class="md-button" href="https://example.org/research-methods-example" target="_blank" rel="noopener">External record</a>
 </div>
 
 <details class="pdf-preview">
@@ -54,4 +54,3 @@ This fictional guide walks through a transparent mixed-methods workflow, from re
 
 - [Netnography Example](netnography-example.md)
 - [Malaysia Public Health Example](malaysia-public-health-example.md)
-

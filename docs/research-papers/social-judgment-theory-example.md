@@ -32,10 +32,10 @@ tags:
 This fictional paper introduces latitudes of acceptance, rejection and noncommitment through a hypothetical public-communication study. It illustrates how RedShelf can present theory-focused scholarship with clear metadata and related-document pathways.
 
 <div class="rs-actions">
-  <a class="md-button md-button--primary" href="../../assets/pdf/social-judgment-theory-example.pdf" target="_blank" rel="noopener">:material-eye-outline: View PDF</a>
-  <a class="md-button" href="../../assets/pdf/social-judgment-theory-example.pdf" download>:material-download: Download PDF</a>
-  <a class="md-button" href="https://doi.org/10.0000/redshelf.sjt.002" target="_blank" rel="noopener">:material-link-variant: DOI</a>
-  <a class="md-button" href="https://example.org/social-judgment-theory-example" target="_blank" rel="noopener">:material-open-in-new: External record</a>
+  <a class="md-button md-button--primary" href="../../assets/pdf/social-judgment-theory-example.pdf" target="_blank" rel="noopener">View PDF</a>
+  <a class="md-button" href="../../assets/pdf/social-judgment-theory-example.pdf" download>Download PDF</a>
+  <a class="md-button" href="https://doi.org/10.0000/redshelf.sjt.002" target="_blank" rel="noopener">DOI</a>
+  <a class="md-button" href="https://example.org/social-judgment-theory-example" target="_blank" rel="noopener">External record</a>
 </div>
 
 <details class="pdf-preview">
@@ -54,4 +54,3 @@ This fictional paper introduces latitudes of acceptance, rejection and noncommit
 
 - [Cannabis Policy Example](cannabis-policy-example.md)
 - [Netnography Example](netnography-example.md)
-

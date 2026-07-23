@@ -32,10 +32,10 @@ tags:
 These fictional proceedings demonstrate how RedShelf can host conference programmes, abstracts and proceedings alongside papers and reports. The placeholder includes a sample welcome, programme and abstract.
 
 <div class="rs-actions">
-  <a class="md-button md-button--primary" href="../../assets/pdf/conference-proceedings-example.pdf" target="_blank" rel="noopener">:material-eye-outline: View PDF</a>
-  <a class="md-button" href="../../assets/pdf/conference-proceedings-example.pdf" download>:material-download: Download PDF</a>
-  <a class="md-button" href="https://doi.org/10.0000/redshelf.conf.006" target="_blank" rel="noopener">:material-link-variant: DOI</a>
-  <a class="md-button" href="https://example.org/conference-proceedings-example" target="_blank" rel="noopener">:material-open-in-new: External record</a>
+  <a class="md-button md-button--primary" href="../../assets/pdf/conference-proceedings-example.pdf" target="_blank" rel="noopener">View PDF</a>
+  <a class="md-button" href="../../assets/pdf/conference-proceedings-example.pdf" download>Download PDF</a>
+  <a class="md-button" href="https://doi.org/10.0000/redshelf.conf.006" target="_blank" rel="noopener">DOI</a>
+  <a class="md-button" href="https://example.org/conference-proceedings-example" target="_blank" rel="noopener">External record</a>
 </div>
 
 <details class="pdf-preview">

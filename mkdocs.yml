@@ -9,12 +9,12 @@ copyright: RedShelf — Organise. Discover. Read.
 
 theme:
   name: material
-  custom_dir: docs/overrides
+  custom_dir: overrides
   language: en
   favicon: assets/images/favicon.svg
   logo: assets/images/logo.svg
   font:
-    text: Inter
+    text: Source Sans 3
     code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme)"

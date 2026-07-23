@@ -27,3 +27,11 @@ The project source is available at [saprimad/redshelf](https://github.com/saprim
 ## Content responsibility
 
 Only upload PDFs that you are permitted to store and redistribute. Review copyright, licensing, privacy and research-ethics requirements before publishing any document.
+
+## Privacy notice
+
+RedShelf is a static website and does not operate a user database. Search queries are processed in the browser by Material for MkDocs. PDF links and external-source links may lead to third-party services with their own privacy practices. Repository maintainers should document any analytics or external integrations they add in the future.
+
+## Independence statement
+
+RedShelf is an independent academic library project. Its visual design is informed by the clarity and formality of Malaysian university websites, but RedShelf is not affiliated with, endorsed by, or an official platform of Universiti Teknologi MARA (UiTM).
