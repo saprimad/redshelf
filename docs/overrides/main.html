@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta name="theme-color" content="#b4232d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title }} · RedShelf">
+  <meta property="og:description" content="{{ config.site_description }}">
+{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  <div class="redshelf-footer-note" role="contentinfo">
+    <span>RedShelf — Organise. Discover. Read.</span>
+    <span>Built for accessible academic discovery.</span>
+  </div>
+{% endblock %}

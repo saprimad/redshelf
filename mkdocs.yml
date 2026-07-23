@@ -1,0 +1,125 @@
+site_name: RedShelf
+site_description: A searchable academic PDF library for papers, documents, guidelines, and research resources.
+site_author: RedShelf
+site_url: https://saprimad.github.io/redshelf/
+repo_name: saprimad/redshelf
+repo_url: https://github.com/saprimad/redshelf
+edit_uri: edit/main/docs/
+copyright: RedShelf — Organise. Discover. Read.
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: en
+  favicon: assets/images/favicon.svg
+  logo: assets/images/logo.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/extra.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/saprimad/redshelf
+      name: RedShelf on GitHub
+
+nav:
+  - Home: index.md
+  - Recently Added: recently-added.md
+  - Research Papers:
+      - Overview: research-papers/index.md
+      - Cannabis Policy:
+          - Collection: research-papers/cannabis-policy/index.md
+          - Cannabis Policy Example: research-papers/cannabis-policy-example.md
+      - Social Acceptance: research-papers/social-acceptance/index.md
+      - Social Judgment Theory:
+          - Collection: research-papers/social-judgment-theory/index.md
+          - Social Judgment Theory Example: research-papers/social-judgment-theory-example.md
+      - Netnography:
+          - Collection: research-papers/netnography/index.md
+          - Netnography Example: research-papers/netnography-example.md
+      - Public Health:
+          - Collection: research-papers/public-health/index.md
+          - Malaysia Public Health Example: research-papers/malaysia-public-health-example.md
+      - Research Methods:
+          - Collection: research-papers/research-methods/index.md
+          - Research Methods Example: research-papers/research-methods-example.md
+  - PhD Documents: phd-documents/index.md
+  - Conference Materials:
+      - Overview: conference-materials/index.md
+      - Conference Proceedings Example: conference-materials/conference-proceedings-example.md
+  - Guidelines: guidelines/index.md
+  - Reports: reports/index.md
+  - Books: books/index.md
+  - Ethics Documents: ethics-documents/index.md
+  - Tags: tags.md
+  - About: about.md
